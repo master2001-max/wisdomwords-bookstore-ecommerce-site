@@ -1,0 +1,24 @@
+🗃️ Database Setup (Follow this before run the application)
+
+This project uses a MySQL database named bookstore. Before running the project, follow these steps to create the required database and table.
+🔧 Step-by-Step Guide
+1.	Start XAMPP (or MAMP, WAMP) and enable:
+•	Apache
+•	MySQL
+
+2.	Open your browser and go to: http://localhost/phpmyadmin
+3.	Click on SQL tab.
+4.	Paste the following SQL code and click Go:
+
+CREATE DATABASE IF NOT EXISTS bookstore;
+USE bookstore;
+CREATE TABLE IF NOT EXISTS cart (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    product_id INT NOT NULL
+);
+This will:
+•	Create a database called bookstore
+•	Add a table named cart with a product_id column
+🔁 You can now run the project in your browser:
+http://localhost/WisdomWords.lk/products/home.php
+

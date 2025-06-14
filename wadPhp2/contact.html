@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <div class="fixed">
+            <div class="top-header ">
+                <div class="logo">
+                    <h2>WisdomWords.lk</h2>
+                </div>
+                <div class="search">
+                    <form action="" method="GET">
+                        <input type="text" placeholder="Search Here..." name="search">
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="profile">
+                    <a href="login.html"><strong>Account</strong></a>
+                    <div class="logout">
+                        <a href="logoutform.php" style="font-size: 15px; color: #d46565;"><strong>Logout
+                                <br></strong></a>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="../products/home.php">Features</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navbar close -->
+        <div class="loginform">
+            <form action="process_contact.php" method="post">
+                <h1>Contact Us</h1>
+
+                <div class="input">
+                    <input type="email" name="email" class="email" placeholder="Email" required> <br><br>
+                    <textarea name="message" class="message" placeholder="Add your Message" rows="10" required
+                        style="width: 100%; height: 100px; padding: 5px"></textarea>
+                </div>
+
+                <!-- <div class="inputc">
+                    <textarea name="message" class="message" placeholder="Add your Message" rows="10"
+                        required></textarea>
+                </div> -->
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+</body>
+
+</html>

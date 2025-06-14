@@ -1,0 +1,42 @@
+body {
+
+    background-color: antiquewhite;
+
+}
+
+.shopping-cart table {
+    width: 100%;
+    text-align: center;
+    /* Center align text in the table */
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: antiquewhite;
+}
+
+.shopping-cart table td,
+.shopping-cart table th {
+    padding: 10px;
+    color: #333;
+    vertical-align: middle;
+    /* Align content vertically in the middle */
+}
+
+.shopping-cart table th {
+    text-align: center;
+    /* Center align header text */
+}
+
+.shopping-cart table td img {
+    display: block;
+    margin: 0 auto;
+    /* Center align images */
+}
+
+.shopping-cart table .table-bottom {
+    background-color: #eee;
+    font-size: medium;
+    /* Adjust font size for the total row */
+    text-align: right;
+    /* Right-align total price */
+}
