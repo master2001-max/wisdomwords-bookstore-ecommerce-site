@@ -20,7 +20,21 @@ It includes both frontend and backend development using the following technologi
 - Responsive Design
 
 📷 View:
-![Homepage Screenshot](Home.png)
+
+- Login Page
+<img src="Login.png" width="600"/>
+
+- Home Page
+<img src="Home.png" width="600"/>
+
+- Shop Now Page
+<img src="shopnow.png" width="600"/>
+
+- About Us Page
+<img src="aboutus.png" width="600"/>
+
+- Contact Us Page
+<img src="contact.png" width="600"/>
 
 
 📌 How to Run Locally:
