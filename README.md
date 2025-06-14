@@ -1,5 +1,7 @@
 WisdomWords Bookstore — Ecommerce Website 💻📚
 
+<img src="banner.png" width="500"  height="250"/>
+
 This is a simple and complete online bookstore project developed as part of my first-year coursework.  
 It includes both frontend and backend development using the following technologies:
 
