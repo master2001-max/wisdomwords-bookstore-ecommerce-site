@@ -19,8 +19,9 @@ It includes both frontend and backend development using the following technologi
 - Admin Control Panel
 - Responsive Design
 
-📷 Screenshots:
-(Add screenshots here later)
+📷 View:
+![Homepage Screenshot](Home.png)
+
 
 📌 How to Run Locally:
 1. Place the project in your `htdocs` (if using XAMPP)
