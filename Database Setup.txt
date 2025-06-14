@@ -19,8 +19,8 @@ CREATE TABLE IF NOT EXISTS cart (
 ______________________________________________
 
 This will:
-•	Create a database called bookstore
-•	Add a table named cart with a product_id column
+        •Create a database called bookstore
+        •Add a table named cart with a product_id column
 
 🔁 You can now run the project in your browser:
 http://localhost/WisdomWords.lk/products/home.php
